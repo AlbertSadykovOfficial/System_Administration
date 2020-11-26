@@ -1,0 +1,9 @@
+[Unit]
+Description=Backup Apache website
+
+[Service]
+Type=simple
+ExecStart=/home/user/site-backup.sh
+
+[Install]
+WantedBy=multi-user.target

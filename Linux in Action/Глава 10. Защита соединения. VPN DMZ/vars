@@ -1,0 +1,5 @@
+export KEY_COUNTRY="RU"
+export KEY_PROVINCE="MSK"
+export KEY_CITY="MSK"
+export KEY_ORG="SPACE EDU"
+export KEY_EMAIL="space@space.com"

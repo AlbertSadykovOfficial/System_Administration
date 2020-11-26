@@ -1,0 +1,6 @@
+sudo systemctl start apache2
+Failed to issue method call: Unit apache2.service failed to load: No such file or directory. See system logs and 'systemctl status apache2.service' for details.
+sudo service apache2 start
+ * Starting web server apache2  AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. 
+Set the 'ServerName' directive globally to suppress this message
+ * 
